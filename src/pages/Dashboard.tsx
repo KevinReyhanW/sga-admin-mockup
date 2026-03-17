@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { 
-  Users, UserCheck, BedDouble, ArrowUpRight, TrendingUp, 
-  DollarSign, Star, AlertCircle, Coffee, CheckCircle2, 
-  Clock, Zap, ShieldCheck, UserPlus, FileText, PieChart as PieIcon,
+  Users, UserCheck, BedDouble, TrendingUp, 
+  DollarSign, Star, UserPlus, FileText,
   BarChart, Download, Filter, Search, Award
 } from "lucide-react";
 import { cn } from "../lib/utils";
 import { 
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, 
-  ResponsiveContainer, LineChart, Line, BarChart as ReBarChart, Bar,
+  ResponsiveContainer, BarChart as ReBarChart, Bar,
   PieChart as RePieChart, Pie, Cell
 } from 'recharts';
 
