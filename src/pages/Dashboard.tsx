@@ -2,13 +2,13 @@ import { useState } from "react";
 import { 
   Users, UserCheck, BedDouble, TrendingUp, 
   DollarSign, Star, UserPlus, FileText,
-  BarChart, Download, Filter, Search, Award
+  BarChart, Download, Filter, Search, Award, Clock
 } from "lucide-react";
 import { cn } from "../lib/utils";
 import { 
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, 
   ResponsiveContainer, BarChart as ReBarChart, Bar,
-  PieChart as RePieChart, Pie, Cell
+  PieChart as RePieChart, Pie, Cell, Line
 } from 'recharts';
 
 const trendData = [
