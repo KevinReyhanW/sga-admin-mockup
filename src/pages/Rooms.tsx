@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { 
   Plus, Search, Filter, MoreVertical, 
-  CheckCircle2, Clock, AlertCircle, BedDouble, 
-  MapPin, Tag, ArrowUpDown
+  CheckCircle2, Clock, AlertCircle, 
+  MapPin, ArrowUpDown
 } from "lucide-react";
 import { cn } from "../lib/utils";
 

@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { MessageSquare, CheckCircle2, AlertCircle, Save, Phone, Fingerprint, RefreshCw, Smartphone, Globe, Shield } from "lucide-react";
+import { 
+  CheckCircle2, AlertCircle, Save, Phone, 
+  Fingerprint, RefreshCw, Smartphone, Globe, Shield 
+} from "lucide-react";
 import { cn } from "../lib/utils";
 
 export default function WhatsAppSettings() {
